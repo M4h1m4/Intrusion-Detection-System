@@ -4,7 +4,7 @@
 **Course:** CS258 – Computer Communication Systems  
 
 ## Project Overview  
-Modern networks face evolving cyberattacks that rule-based IDS miss. This project implements an end-to-end ML pipeline on NSL-KDD (125,973 train / 22,544 test samples) to detect five attack categories. We compare classical ML, a hybrid CNN–LSTM, and two PSO-tuned deep-learning models (1D-CNN, plain LSTM).
+Modern networks face evolving cyberattacks that rule-based IDS miss. This project implements an end-to-end deep learning pipeline on NSL-KDD (125,973 train / 22,544 test samples) to detect five attack categories. We compare a hybrid CNN–LSTM, and two PSO-tuned deep-learning models (1D-CNN, plain LSTM).
 
 
 ## Data Preparation
@@ -16,12 +16,6 @@ Modern networks face evolving cyberattacks that rule-based IDS miss. This projec
 
 
 The models used for this task are:
-
-* Random Forest
-
-* HistGradientBoostingClassifier
-
-* Logistic Regression
 
 * 1D Convolutional Neural Network (1D-CNN)
 
@@ -35,9 +29,6 @@ The models used for this task are:
 
 | Model                         | Test Accuracy |
 |-------------------------------|--------------:|
-| Random Forest                 |         0.91  |
-| HistGradientBoostingClassifier|         0.92  |
-| Logistic Regression           |         0.86  |
 | **PSO-Optimized 1D-CNN**      |         0.76  |
 | **PSO-Optimized LSTM**        |         0.83  |
 | **CNN–LSTM Hybrid**           |         0.83  |
