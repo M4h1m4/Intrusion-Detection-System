@@ -28,7 +28,7 @@ The models used for this task are:
 
 | Model                         | Test Accuracy |
 |-------------------------------|--------------:|
-| **PSO-Optimized 1D-CNN**      |         0.76  |
-| **PSO-Optimized LSTM**        |         0.83  |
-| **CNN–LSTM Hybrid**           |         0.83  | |
+| **PSO-Optimized 1D-CNN**      |         0.7767|
+| **PSO-Optimized LSTM**        |         0.7580|
+| **CNN–LSTM Hybrid**           |         0.8333|
 
