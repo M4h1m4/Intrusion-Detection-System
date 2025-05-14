@@ -6,13 +6,6 @@
 ## Project Overview  
 Modern networks face evolving cyberattacks that rule-based IDS miss. This project implements an end-to-end ML pipeline on NSL-KDD (125,973 train / 22,544 test samples) to detect five attack categories. We compare classical ML, a hybrid CNN–LSTM, and two PSO-tuned deep-learning models (1D-CNN, plain LSTM).
 
-## Installation  
-bash
-git clone https://github.com/your-username/ps-intrusion-detection.git
-cd ps-intrusion-detection
-python3 -m venv venv
-source venv/bin/activate       # Windows: venv\Scripts\activate
-pip install -r requirements.txt
 
 ## Data Preparation
 * Mapping: 39 fine-grained attacks → 5 categories (DoS, Probe, R2L, U2R, Normal)
