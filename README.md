@@ -31,6 +31,5 @@ The models used for this task are:
 |-------------------------------|--------------:|
 | **PSO-Optimized 1D-CNN**      |         0.76  |
 | **PSO-Optimized LSTM**        |         0.83  |
-| **CNN–LSTM Hybrid**           |         0.83  |
-| **Best (AE-MLP / Ensemble)**  |        0.88+  |
+| **CNN–LSTM Hybrid**           |         0.83  | |
 
