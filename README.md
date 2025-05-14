@@ -17,7 +17,6 @@ Modern networks face evolving cyberattacks that rule-based IDS miss. This projec
 
 The models used for this task are:
 
-* 1D Convolutional Neural Network (1D-CNN)
 
 * CNN–LSTM Hybrid
 
